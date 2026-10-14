@@ -1,13 +1,13 @@
-# Waffle — Agentic Prep & Food-Waste Intelligence for JAPAC Hawkers
+# StallSense — Agentic Prep & Food-Waste Intelligence for JAPAC Hawkers
 
 **Google Cloud AI Builder Cup 2026 · Theme: Sustainability & Social Impact**
-**Team:** Cordate
+
 
 A working prototype that helps street-food and market vendors across Asia-Pacific prepare the *right* amount of food each morning, using a visible **5-agent Gemini pipeline** with **live Google Search grounding** — cutting waste, recovering value, and increasing income.
 
 ▶ **Live demo:** _[Firebase Hosting URL — add after deploy]_
 ▶ **Demo video (3 min):** _[YouTube/Vimeo link — add before submit]_
-▶ **Repo:** _https://github.com/benben000000/waffle_
+▶ **Repo:** _[GitHub link — add before submit]_
 
 ---
 
@@ -24,7 +24,7 @@ Existing "AI for good" hacks target consumers. **Nobody is building forecasting 
 
 ---
 
-## What Waffle does
+## What StallSense does
 
 A vendor pastes their menu (or snaps a photo of their handwritten board), adds location + date, and gets a **personalized morning brief in ~40 seconds**:
 
@@ -37,7 +37,7 @@ A vendor pastes their menu (or snaps a photo of their handwritten board), adds l
 
 ## Why it wins (mapped to the official rubric)
 
-| Rubric (weight) | How Waffle scores |
+| Rubric (weight) | How StallSense scores |
 |---|---|
 | **Technical Merit & Gen AI (40%)** | **5 specialized agents** in a sequential pipeline, each a distinct Gemini call with its own structured-output schema. Agent 2 uses **live Google Search grounding** (real weather + local events). Agent 1 is **multimodal** (photo → structured menu). Structured JSON output throughout. |
 | **Problem Alignment & Impact (25%)** | Directly attacks food waste + vendor income in a real, underserved JAPAC community. Quantified impact (surplus value recovered, % diverted). |
@@ -109,7 +109,7 @@ npx serve .        # or: python -m http.server 8080
 ## Project structure
 
 ```
-Waffle/
+StallSense/
 ├── index.html          # Single-screen UI
 ├── css/styles.css      # Dashboard styling
 ├── js/

@@ -1,4 +1,4 @@
-# Waffle
+# StallSense
 ### Agentic Prep & Food-Waste Intelligence for JAPAC Street-Food Vendors
 
 **Google Cloud AI Builder Cup 2026**
@@ -110,7 +110,7 @@ Browser (static web app)
 
 # Team & Links
 
-**Team:** Cordate
+**Team:** _[Team name]_
 **Live demo:** _[Firebase URL]_
 **Repo:** _[GitHub URL]_
 **Video:** _[YouTube/Vimeo, 3 min]_

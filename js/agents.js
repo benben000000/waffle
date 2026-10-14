@@ -1,4 +1,4 @@
-// Waffle — 5-agent pipeline
+// StallSense — 5-agent pipeline
 // Each agent is a distinct Gemini call with its own role, schema and (where
 // useful) live Google Search grounding. The pipeline is deliberately visible
 // in the UI so a judge can *see* agentic orchestration, not just an output.
@@ -275,5 +275,5 @@ Keep every number in ${currency}.`;
 }
 
 function systemFor(role) {
-  return `You are the ${role} agent inside "Waffle", an agentic AI system that helps JAPAC street-food and market vendors prepare the right amount of food, cut waste, and earn more. You are one specialist step in a multi-agent pipeline. Be concrete, realistic and conservative. Never fabricate live facts you were not given or that grounding did not surface — say "unknown" instead.`;
+  return `You are the ${role} agent inside "StallSense", an agentic AI system that helps JAPAC street-food and market vendors prepare the right amount of food, cut waste, and earn more. You are one specialist step in a multi-agent pipeline. Be concrete, realistic and conservative. Never fabricate live facts you were not given or that grounding did not surface — say "unknown" instead.`;
 }

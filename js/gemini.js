@@ -1,4 +1,4 @@
-// Waffle — Google Gemini API client (free tier, browser-side)
+// StallSense — Google Gemini API client (free tier, browser-side)
 // Uses the generateContent REST endpoint with structured JSON output and
 // optional Google Search grounding. No backend required.
 

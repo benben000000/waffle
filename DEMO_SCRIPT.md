@@ -1,4 +1,4 @@
-# Waffle — 3-Minute Demo Script
+# StallSense — 3-Minute Demo Script
 
 **Goal:** show a judge, in under 3 minutes, a *working agentic system* solving a real JAPAC problem. No fluff.
 
@@ -6,9 +6,9 @@
 
 ## 0:00–0:25 — Hook + problem (voiceover, screen shows the landing page)
 
-> "This is a hawker stall in Singapore. Across Asia-Pacific, millions of street-food vendors prep food every morning on a guess. When it rains, or footfall is slow, that food gets thrown away — money lost twice, once in ingredients and once in labour. Existing AI-for-good projects target consumers. Almost nobody builds forecasting for the micro-vendor. So we built Waffle."
+> "This is a hawker stall in Singapore. Across Asia-Pacific, millions of street-food vendors prep food every morning on a guess. When it rains, or footfall is slow, that food gets thrown away — money lost twice, once in ingredients and once in labour. Existing AI-for-good projects target consumers. Almost nobody builds forecasting for the micro-vendor. So we built StallSense."
 
-**On screen:** the Waffle landing page, cursor hovering over the empty state.
+**On screen:** the StallSense landing page, cursor hovering over the empty state.
 
 ---
 
@@ -50,7 +50,7 @@
 
 ## 2:35–3:00 — Why it matters + close
 
-> "This is a real, underserved JAPAC community with the highest waste-to-revenue ratio and almost no technology. Waffle turns one photo into less waste, more income, and more food donated instead of dumped. It runs on Gemini's free tier with live grounding, deployed free on Firebase. Built for Sustainability & Social Impact, Google Cloud AI Builder Cup 2026."
+> "This is a real, underserved JAPAC community with the highest waste-to-revenue ratio and almost no technology. StallSense turns one photo into less waste, more income, and more food donated instead of dumped. It runs on Gemini's free tier with live grounding, deployed free on Firebase. Built for Sustainability & Social Impact, Google Cloud AI Builder Cup 2026."
 
 **On screen:** the live-grounding sources line, then the footer badge.
 

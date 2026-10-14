@@ -1,4 +1,4 @@
-// Waffle — UI orchestration
+// StallSense — UI orchestration
 import { setApiKey, hasApiKey } from "./gemini.js";
 import {
   AGENTS,
@@ -11,8 +11,8 @@ import {
 
 const $ = (id) => document.getElementById(id);
 const store = {
-  get key() { return localStorage.getItem("Waffle_key") || ""; },
-  set key(v) { localStorage.setItem("Waffle_key", v); },
+  get key() { return localStorage.getItem("StallSense_key") || ""; },
+  set key(v) { localStorage.setItem("StallSense_key", v); },
 };
 
 // --- init ---
@@ -228,7 +228,7 @@ function renderOutput(brief, menu, forecast, plan, waste) {
       .map((s) => `<a href="${escapeAttr(s.uri)}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>`)
       .join(" · ")}</p></div>` : ""}
 
-    <p class="disclaimer">Estimates are AI-generated guidance, not guarantees. Always follow local food-safety and hot-holding rules. Waffle — Sustainability &amp; Social Impact, Google Cloud AI Builder Cup 2026.</p>
+    <p class="disclaimer">Estimates are AI-generated guidance, not guarantees. Always follow local food-safety and hot-holding rules. StallSense — Sustainability &amp; Social Impact, Google Cloud AI Builder Cup 2026.</p>
   `;
 }
 
